@@ -1,0 +1,15 @@
+C:\Users\Prakr\C-Console-Project\CommunityConnect\bin\Debug\net10.0\CommunityConnect.exe
+C:\Users\Prakr\C-Console-Project\CommunityConnect\bin\Debug\net10.0\CommunityConnect.deps.json
+C:\Users\Prakr\C-Console-Project\CommunityConnect\bin\Debug\net10.0\CommunityConnect.runtimeconfig.json
+C:\Users\Prakr\C-Console-Project\CommunityConnect\bin\Debug\net10.0\CommunityConnect.dll
+C:\Users\Prakr\C-Console-Project\CommunityConnect\bin\Debug\net10.0\CommunityConnect.pdb
+C:\Users\Prakr\C-Console-Project\CommunityConnect\obj\Debug\net10.0\CommunityConnect.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Prakr\C-Console-Project\CommunityConnect\obj\Debug\net10.0\CommunityConnect.AssemblyInfoInputs.cache
+C:\Users\Prakr\C-Console-Project\CommunityConnect\obj\Debug\net10.0\CommunityConnect.AssemblyInfo.cs
+C:\Users\Prakr\C-Console-Project\CommunityConnect\obj\Debug\net10.0\CommunityConnect.csproj.CoreCompileInputs.cache
+C:\Users\Prakr\C-Console-Project\CommunityConnect\obj\Debug\net10.0\CommunityConnect.sourcelink.json
+C:\Users\Prakr\C-Console-Project\CommunityConnect\obj\Debug\net10.0\CommunityConnect.dll
+C:\Users\Prakr\C-Console-Project\CommunityConnect\obj\Debug\net10.0\refint\CommunityConnect.dll
+C:\Users\Prakr\C-Console-Project\CommunityConnect\obj\Debug\net10.0\CommunityConnect.pdb
+C:\Users\Prakr\C-Console-Project\CommunityConnect\obj\Debug\net10.0\CommunityConnect.genruntimeconfig.cache
+C:\Users\Prakr\C-Console-Project\CommunityConnect\obj\Debug\net10.0\ref\CommunityConnect.dll
