@@ -1,6 +1,8 @@
 using CommunityConnect.Models;
 using CommunityConnect.Services;
 
+using CommunityConnect.Interfaces;
+using CommunityConnect.Repositories;
 User volunteer =
     new Volunteer(
         1,
@@ -16,11 +18,40 @@ User admin =
 volunteer.Login();
 admin.Login();
 
-NotificationService service1 =
+
+INotificationService notification =
     new EmailNotificationService();
 
-NotificationService service2 =
-    new SmsNotificationService();
+EventService eventService =
+    new EventService(notification);
 
-service1.Send("Welcome");
-service2.Send("Welcome");
+eventService.RegisterVolunteer(
+    "Prakrati");
+
+VolunteerRepository repository =
+    new VolunteerRepository();
+
+repository.Add(
+    new Volunteer(
+        1,
+        "Prakrati",
+        "prakrati@gmail.com"));
+
+repository.Add(
+    new Volunteer(
+        2,
+        "Aman",
+        "aman@gmail.com"));VolunteerRepository _ =
+    new VolunteerRepository();
+
+repository.Add(
+    new Volunteer(
+        1,
+        "Prakrati",
+        "prakrati@gmail.com"));
+
+repository.Add(
+    new Volunteer(
+        2,
+        "Aman",
+        "aman@gmail.com"));

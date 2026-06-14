@@ -6,7 +6,15 @@ public class EmailNotificationService
 {
     public void Send(string message)
     {
-        Console.WriteLine(
-            $"Email Sent: {message}");
+        try
+        {
+            Console.WriteLine(
+                $"Email Sent: {message}");
+        }
+        catch(Exception ex)
+        {
+            Console.WriteLine(
+                ex.Message);
+        }
     }
 }

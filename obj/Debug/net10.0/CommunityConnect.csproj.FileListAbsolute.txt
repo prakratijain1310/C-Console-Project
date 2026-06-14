@@ -12,3 +12,4 @@ C:\Users\Prakr\C-Console-Project\CommunityConnect\obj\Debug\net10.0\refint\Commu
 C:\Users\Prakr\C-Console-Project\CommunityConnect\obj\Debug\net10.0\CommunityConnect.pdb
 C:\Users\Prakr\C-Console-Project\CommunityConnect\obj\Debug\net10.0\CommunityConnect.genruntimeconfig.cache
 C:\Users\Prakr\C-Console-Project\CommunityConnect\obj\Debug\net10.0\ref\CommunityConnect.dll
+C:\Users\Prakr\C-Console-Project\CommunityConnect\obj\Debug\net10.0\CommunityConnect.sourcelink.json
