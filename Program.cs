@@ -1,8 +1,7 @@
 using CommunityConnect.Models;
-using CommunityConnect.Services;
-
 using CommunityConnect.Interfaces;
 using CommunityConnect.Repositories;
+
 User volunteer =
     new Volunteer(
         1,
