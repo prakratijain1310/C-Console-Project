@@ -1,4 +1,6 @@
 using CommunityConnect.Models;
+using CommunityConnect.Services;
+
 User volunteer =
     new Volunteer(
         1,
@@ -13,3 +15,12 @@ User admin =
 
 volunteer.Login();
 admin.Login();
+
+NotificationService service1 =
+    new EmailNotificationService();
+
+NotificationService service2 =
+    new SmsNotificationService();
+
+service1.Send("Welcome");
+service2.Send("Welcome");
