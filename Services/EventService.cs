@@ -1,29 +1,16 @@
-using System;
-using CommunityConnect.Interfaces;
+using CommunityConnect.Models;
 
-namespace CommunityConnect.Services
+public class EventService
 {
-    public class EventService
+    private readonly
+        IRepoService<Volunteer>
+        _repository;
+
+    public EventService(
+        IRepoService<Volunteer>
+        repository)
     {
-        private readonly INotificationService _notificationService;
-
-        public EventService(
-            INotificationService notificationService)
-        {
-            _notificationService =
-                notificationService
-                ?? throw new ArgumentNullException(
-                    nameof(notificationService));
-        }
-
-        public void RegisterVolunteer(
-            string volunteerName)
-        {
-            Console.WriteLine(
-                $"{volunteerName} registered.");
-
-            _notificationService.Send(
-                "Registration Successful");
-        }
+        _repository =
+            repository;
     }
 }

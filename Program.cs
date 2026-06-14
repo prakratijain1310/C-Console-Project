@@ -22,12 +22,6 @@ admin.Login();
 INotificationService notification =
     new EmailNotificationService();
 
-EventService eventService =
-    new EventService(notification);
-
-eventService.RegisterVolunteer(
-    "Prakrati");
-
 VolunteerRepository repository =
     new VolunteerRepository();
 
