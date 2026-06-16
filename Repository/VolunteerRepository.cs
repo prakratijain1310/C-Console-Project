@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using CommunityConnect.Models;
 
-namespace CommunityConnect.Repositories
+namespace CommunityConnect.Repository
 {
     public class VolunteerRepository
     {

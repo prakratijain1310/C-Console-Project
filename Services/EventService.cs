@@ -1,4 +1,6 @@
+using System;
 using CommunityConnect.Models;
+using CommunityConnect.Repository;
 
 public class EventService
 {
@@ -13,4 +15,20 @@ public class EventService
         _repository =
             repository;
     }
+
+    public EventService(VolunteerRepository repository)
+    {
+    }
+
+    public event Action<string>
+        VolunteerRegistered;
+    public void RegisterVolunteer(
+            string volunteerName)
+    {
+            Console.WriteLine(
+                $"{volunteerName} successfully registered.");
+
+            VolunteerRegistered?.Invoke(
+                volunteerName);
+}
 }
